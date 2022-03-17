@@ -1,0 +1,491 @@
+*{
+    margin: 0%;
+}
+@font-face {
+    font-family: 'cooper_hewittmedium';
+    src: url('/fonts/cooperhewitt-medium-webfont.woff2') format('woff2'),
+         url('/fonts/cooperhewitt-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('/fonts/font2/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('/fonts/font2/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('/fonts/font3/raleway-thin-webfont.woff2') format('woff2'),
+         url('fonts/font3/raleway-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Nav Part*/
+nav{
+    
+    width: auto;
+    height: 60px;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+              
+}
+.sticky{
+     
+    background-color: rgb(255,255,255,1);
+    position: sticky;
+    top: 0; 
+}
+
+.noun{
+   
+    width: 50%;
+    display: flex;
+    padding-top: 1%;
+    
+}
+.noun img{
+    padding-right: 2%;
+}
+.navig ul{
+    display: flex;
+}
+ul li{
+padding-left: 3%;
+padding-right: 3%;
+list-style: none; 
+   
+}
+.navig{
+    
+    width: 50%;
+    padding-left: 40%;
+    padding-top: 1.5%;
+    font-family: 'source_sans_prosemibold';
+    color: rgb(171, 171, 171);  
+     
+}
+.noun h1{
+    font-family: 'cooper_hewittmedium';
+    color: rgb(0, 195, 165);
+    font-size: 180%;
+}
+.noun span{
+    color: rgb(171, 171, 171);
+    
+}
+.navig a{
+    text-decoration: none; 
+    color: rgb(171, 171, 171);
+}
+li:hover{
+    color: rgb(0, 195, 165);  
+}
+.navig a:hover{
+    color: rgb(0, 195, 165);   
+}
+
+/* Intro Part*/
+.intro{
+   
+    width: auto;
+    height: 350px;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+}
+.intro img{
+    padding-left: 45%;
+    padding-bottom: 4%;
+}
+.intro h1{
+    padding-left: 15%;
+    padding-bottom: 4%;
+    font-family: 'ralewaythin';
+    color: rgb(0, 195, 165); 
+}
+.parag{
+    display: flex;
+    justify-content:center;
+    color:rgb(99, 94, 94);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 170%;
+}
+#p1{
+    padding-right: 4%;
+    font-size: medium;
+    
+}
+.boxes{
+    
+    display:flex;
+    height: 350px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    color: white;
+    
+   
+    
+    
+}
+.pbox{
+  
+    background-color: rgb(0, 204, 177);
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    font-family: 'source_sans_prosemibold';
+    margin-right: 1%;
+    width: 260px;
+  
+    
+    
+}
+.docbox{
+   
+    background-color: rgb(61, 131, 223);
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    font-family: 'source_sans_prosemibold';
+    margin-right: 1%;
+    width: 280px;
+    
+   
+    
+    
+}
+.clibox{
+    
+    background-color: rgb(27, 39, 52);
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    width: 260px;
+    font-family: 'source_sans_prosemibold';
+}
+.boxes p{
+    font-family: 'ralewaythin';
+    font-size:x-large;
+    
+}
+.boxes h1{
+    padding-bottom: 3%;
+}
+.pbox p{
+    padding-bottom: 25%;
+}
+.docbox p{
+    padding-bottom: 33%;
+}
+.clibox p{
+    padding-bottom: 15%;
+}
+#clinics{
+    margin-bottom: 10%;
+    background: transparent;
+    color: white;
+    font-family: 'source_sans_prosemibold';
+    font-size: larger;
+    border-color: transparent;
+    border-bottom: 1px white solid;
+}
+#clinics2{
+    background: transparent;
+    color: white;
+    font-family: 'source_sans_prosemibold';
+    font-size: larger;
+    border-color: transparent;
+    border-bottom: 1px white solid;
+}
+#doctors{
+    background: transparent;
+    color: white;
+    font-family: 'source_sans_prosemibold';
+    font-size: larger;
+    border-color: transparent;
+    border-bottom: 1px white solid;
+}
+#patient{
+    background: transparent;
+    color: white;
+    font-family: 'source_sans_prosemibold';
+    font-size: larger;
+    border-color: transparent;
+    border-bottom: 1px white solid;
+}
+option { 
+    color:black; 
+    font-family:'Times New Roman', Times, serif
+}
+.logo{
+   
+    display:flex;
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 120px;
+}
+.bigtitle{
+    
+    width: 370px;
+    font-family: 'ralewaythin';
+    color: rgb(0, 195, 165); 
+    font-size: smaller;
+    line-height: 300%;
+    margin-right: 8%;
+    
+}
+.images{
+   
+    flex-wrap: wrap;
+    width: 600px;
+}
+.pbox:hover{
+  background-color: rgb(0, 204, 177,0.8);
+}
+.docbox:hover{
+        background-color: rgb(61, 131, 223,0.8);
+}
+.clibox:hover{
+     background-color: rgb(27, 39, 52,0.8);
+}
+.images img{
+    filter: grayscale(100%);
+}
+.images img:hover{
+    filter: grayscale(0%);
+}
+
+
+.bigpic{
+    
+    background-color: rgb(219, 247, 246);
+    
+    display: flex;
+    margin-top: 3%;
+    height: 600px;
+    
+    
+}
+.flag{
+    
+    background-color: white;
+    width: 200px;
+    height: 250px;
+}
+.visits{
+    
+    background-color: white;
+    width: 200px;
+    height: 250px;
+}
+.pat{
+    
+    background-color: white;
+    width: 200px;
+    height: 250px;
+}
+.doc{
+    
+    background-color: white;
+    width: 200px;
+    height: 250px;
+}
+.world{
+    
+    width: 35%;
+    margin-left: 10%;
+    
+}
+.allboxes{
+    
+    flex: 1;
+    display: flex;
+    margin-right: 10%;
+    
+    justify-content: space-around;
+}
+.first{
+    margin-top: 8%;
+    
+}
+.second{
+    margin-top: 5%;
+}
+.flag{
+    margin-bottom: 8%;
+    border-radius: 3%;
+    
+}
+.visits{
+    margin-bottom: 8%;
+    border-radius: 3%;
+}
+.pat{
+    border-radius: 3%;
+}
+.doc{
+    border-radius: 3%;
+}
+.flag img{
+     padding-left: 45%;
+     padding-bottom: 8%;
+     padding-top: 8%;
+}
+.visits img{
+    padding-left: 40%;
+    padding-bottom: 10%;
+    padding-top: 20%;
+}
+.pat img{
+    padding-left: 40%;
+    padding-bottom: 10%;
+    padding-top: 8%;
+}
+.doc img{
+    padding-left: 40%;
+    padding-bottom: 10%;
+    padding-top: 8%;
+}
+.allboxes h1{
+    font-family: 'ralewaythin';
+    color: rgb(0, 195, 165);
+    padding-left: 15%;
+    font-size: x-large;
+    padding-bottom: 10%;
+}
+.allboxes p{
+    padding-left: 5%;
+    color:rgb(99, 94, 94);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small; 
+    text-align: center;
+    
+}
+.world h1{
+    font-family: 'ralewaythin';
+    color: rgb(0, 195, 165); 
+    padding-top: 20%;
+}
+.world p{
+    color:rgb(99, 94, 94);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.world{
+    overflow: hidden;
+    
+}
+.world img{
+  margin-top: 10%;  
+    
+}
+.textpart{
+    
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+.textpart h1{
+    padding-left: 8%;
+    font-family: 'ralewaythin';
+    color: rgb(0, 195, 165); 
+    text-align: center;
+    
+}
+.textpart p{
+    color:rgb(99, 94, 94);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.pics{
+    
+   display: flex;
+   flex-wrap:wrap;
+   margin-left: 10%;
+   margin-right: 10%;
+   justify-content:space-between;
+ 
+}
+.pics img{
+    border-radius: 3%;
+}
+.w{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.w h2{
+    color:rgb(99, 94, 94);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;   
+}
+.w button{
+    background-color: rgb(61, 131, 223);
+    border-radius: 3%;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+.pays{
+    background-color:beige;
+}
+.pays:hover{
+    box-shadow: rgb(136, 133, 133) 3px 6px 10px;
+    margin-bottom: 3%;
+    
+    
+}
+.end{
+    
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.end h1{
+    font-family: 'ralewaythin';
+    color: rgb(99, 94, 94);
+    padding-bottom: 2%;
+
+}
+.end button{
+    background-color: rgb(61, 131, 223);
+    border-radius: 3%;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+   
+}
+footer p{
+    color: #aca6a6;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+   
+}
+footer{
+    padding-bottom: 3%;
+}

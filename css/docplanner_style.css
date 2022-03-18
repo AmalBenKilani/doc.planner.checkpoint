@@ -19,8 +19,8 @@
 }
 @font-face {
     font-family: 'ralewaythin';
-    src: url('/doc.planner.checkpoint/fonts/font3/raleway-thin-webfont.woff2') format('woff2'),
-         url('/doc.planner.checkpoint/fonts/font3/raleway-thin-webfont.woff') format('woff');
+    src: url('/fonts/font3/raleway-thin-webfont.woff2') format('woff2'),
+         url('/fonts/font3/raleway-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

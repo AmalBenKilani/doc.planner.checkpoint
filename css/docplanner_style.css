@@ -3,16 +3,16 @@
 }
 @font-face {
     font-family: 'cooper_hewittmedium';
-    src: url('/fonts/cooperhewitt-medium-webfont.woff2') format('woff2'),
-         url('/fonts/cooperhewitt-medium-webfont.woff') format('woff');
+    src: url('/doc.planner.checkpoint/fonts/cooperhewitt-medium-webfont.woff2') format('woff2'),
+         url('/doc.planner.checkpoint/fonts/cooperhewitt-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'source_sans_prosemibold';
-    src: url('/fonts/font2/sourcesanspro-semibold-webfont.woff2') format('woff2'),
-         url('/fonts/font2/sourcesanspro-semibold-webfont.woff') format('woff');
+    src: url('/doc.planner.checkpoint/fonts/font2/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('/doc.planner.checkpoint/fonts/font2/sourcesanspro-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
